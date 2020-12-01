@@ -17,7 +17,6 @@ export default class extends React.Component {
           title="Tip"
           subtitle={this.props.title}
           avatar={<Avatar icon={<LightbulbIcon />} color={white} backgroundColor={yellow600} />}
-          style={{paddingBottom:'0'}}
         />
         {this.props.children}
       </Card>
